@@ -63,12 +63,13 @@
   }
 
   &__projects {
-    margin: auto 16px;
+    margin: 18px 16px;
 
     &-select {
       display: flex;
       width: 155px;
       margin-bottom: 4px;
+      cursor: pointer;
 
       p {
         font-size: 14px;

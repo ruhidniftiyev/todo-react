@@ -2,7 +2,7 @@ import './Navbar.scss';
 import NavbarLogo from './logo/NavbarLogo';
 import NavbarProfile from './profile/NavbarProfile';
 import NavbarSearch from './search/NavbarSearch';
-import NavbarProjects from './favorites/NavbarFavorites';
+import NavbarProjects from './projects/NavbarFavorites';
 import { useState } from 'react';
 
 const Navbar = () => {

@@ -1,0 +1,51 @@
+.tools {
+  width: 9%;
+  background-color: #f5f8fa;
+  height: 100vh;
+  padding-right: 16px;
+
+  &__title {
+    height: 80px;
+    padding: 30px 16px;
+    font-size: 20px;
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    height: 47px;
+    width: calc(100%-16px);
+    border-radius: 0 8px 8px 0;
+
+    img {
+      filter: invert(56%) sepia(10%) saturate(391%) hue-rotate(179deg) brightness(103%)
+        contrast(83%);
+      margin-right: 12px;
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
+
+  &__selectBlock {
+    position: absolute;
+    left: 0px;
+    height: 47px;
+    width: 5px;
+    background-color: #0094ff;
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+.selected {
+  background-color: #fff;
+  color: #0094ff;
+
+  img {
+    filter: invert(40%) sepia(63%) saturate(3165%) hue-rotate(186deg) brightness(103%)
+      contrast(106%);
+  }
+}
